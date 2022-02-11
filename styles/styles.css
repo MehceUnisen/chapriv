@@ -1,6 +1,5 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-    font-weight: bolder;
 }
 
 
@@ -21,4 +20,13 @@ body {
 .nav-link-anchor {
     display: inline-block;
     margin-left: 60px;
+}
+
+
+/* adjustments for my phone spesific (Samsung Galaxy Note8)*/
+
+@media (max-width: 520px) {
+    .navbar-chapriv-text {
+        font-size: 1.3rem;
+    }
 }
