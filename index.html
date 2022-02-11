@@ -14,7 +14,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <!-- google fonts include -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Ubuntu&display=swap" rel="stylesheet">
 
     <!-- stylesheet include -->
     <link rel="stylesheet" href="styles/styles.css">
@@ -25,8 +27,27 @@
 <body>
 
 
-    <!-- top bar includes the name of the site and motto-->
+    <!-- navbar includes the name of the site and motto-->
 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand navbar-chapriv-text" href="#">Chapriv - Chat Privately!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse navbar-items" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link nav-link-anchor" href="#">Who Are We?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-anchor" href="#">Terms and Conditions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav-link-anchor" href="#">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <!-- middle section that contains of chat and controls -->
 

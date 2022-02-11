@@ -1,5 +1,24 @@
-/* some testing code */
-
 body {
-    background-color: red;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bolder;
+}
+
+
+/* navbar section */
+
+.navbar-chapriv-text {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding-left: 3%;
+}
+
+.navbar-items {
+    text-align: center;
+    margin-left: 40%;
+}
+
+.nav-link-anchor {
+    display: inline-block;
+    margin-left: 60px;
 }
