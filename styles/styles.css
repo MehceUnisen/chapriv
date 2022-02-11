@@ -1,5 +1,6 @@
 body {
     font-family: 'Ubuntu', sans-serif;
+    background-color: #90E0EF;
 }
 
 
@@ -9,7 +10,7 @@ body {
     font-family: 'Inconsolata', monospace;
     font-weight: bolder;
     font-size: 2rem;
-    padding-left: 3%;
+    padding-left: 10%;
 }
 
 .navbar-items {
@@ -19,7 +20,48 @@ body {
 
 .nav-link-anchor {
     display: inline-block;
-    margin-left: 60px;
+    margin-left: 0;
+}
+
+
+/* middle section */
+
+.middle-section-col {
+    height: 120%;
+}
+
+.form-text-area {
+    margin-top: 2%;
+    margin-left: 4%;
+}
+
+.middle-section-div {
+    text-align: left;
+    font-weight: bolder;
+    margin: 5% 8%;
+}
+
+.middle-section-div label {
+    color: #03045E;
+}
+
+.img-send {
+    width: 3%;
+    margin-right: 5%;
+    margin-left: 1%;
+}
+
+.text-area {
+    background-color: #00B4D8;
+    border-style: solid;
+    border-color: #03045E;
+    border-width: 2px;
+    /* add some fade effect and onClick changes backcolor fix that */
+}
+
+.text-area:hover {
+    background-color: #007a92;
+    /* add some animation */
 }
 
 
