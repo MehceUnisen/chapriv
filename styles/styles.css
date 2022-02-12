@@ -26,65 +26,62 @@ body {
 
 /* middle section */
 
-.middle-section-col {
-    height: 120%;
-}
-
 .form-text-area {
-    margin-top: 2%;
-    margin-left: 4%;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-bottom: 0;
+    margin-left: 20%;
 }
 
 .middle-section-div {
-    text-align: right;
     font-weight: bolder;
-    margin: 5% 8%;
+    margin: 2% 8%;
 }
 
 .middle-section-div label {
-    color: #03045E;
-}
-
-.img-send {
-    width: 3%;
-    margin-right: 5%;
-    margin-left: 1%;
+    color: gray;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 5%;
 }
 
 .text-area {
-    /* background-color: #90E0EF; */
+    background-color: #d8ceb7 !important;
     border-style: solid;
-    /* border-color: #03045E; */
+    border-color: white;
     border-width: 2px;
-    /* add some fade effect and onClick changes backcolor fix that */
 }
 
-.text-area:hover {
-    /* background-color: #03bde2; */
-    /* add some animation */
+.send-btn {
+    width: 19.2% !important;
+    margin-right: 2% !important;
+    margin-left: 3%;
+}
+
+.message-area {
+    background-color: #d8ceb7 !important;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    margin-left: 20% !important;
 }
 
 iframe {
     width: 100%;
-    height: 400px;
+    height: 100%;
+    object-fit: fill;
     border: none;
-    /* doesn't fill the carousel fix it */
 }
 
 .carousel-item {
-    padding: 3% 13%;
-}
-
-#carousel-streams p {
-    color: #03045E;
-    display: inline-block;
-}
-
-#carousel-streams img {
-    display: inline-block;
-    width: 3%;
-    margin-right: 5%;
-    margin-left: 1%;
+    margin-top: 5%;
+    padding: 0 13%;
+    width: 100%;
+    height: 400px;
+    object-fit: fill;
 }
 
 
@@ -93,5 +90,9 @@ iframe {
 @media (max-width: 520px) {
     .navbar-chapriv-text {
         font-size: 1.3rem;
+    }
+    .middle-section-div {
+        height: 250px;
+        width: 100%;
     }
 }
