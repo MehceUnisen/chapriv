@@ -1,0 +1,61 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #d7c79e;
+}
+
+
+/* mehce */
+
+.navbar-heading {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding-left: 10%;
+}
+
+.section-mehce {
+    padding: 5% 11%;
+}
+
+.section-mehce h1 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: white;
+}
+
+.section-mehce p {
+    margin: 3% 0;
+    margin-right: 25%;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+
+.github-img {
+    margin-left: 4%;
+}
+
+
+/* omer */
+
+.section-omer {
+    padding: 2% 11%;
+}
+
+.section-omer h1 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 2rem;
+    color: white;
+}
+
+.section-omer p {
+    margin: 3% 0;
+    margin-right: 25%;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+
+.twitter-logo {
+    width: 50px;
+}
