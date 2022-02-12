@@ -1,6 +1,6 @@
 body {
     font-family: 'Ubuntu', sans-serif;
-    background-color: #90E0EF;
+    background-color: #d7c79e;
 }
 
 
@@ -52,15 +52,15 @@ body {
 }
 
 .text-area {
-    background-color: #90E0EF;
+    /* background-color: #90E0EF; */
     border-style: solid;
-    border-color: #03045E;
+    /* border-color: #03045E; */
     border-width: 2px;
     /* add some fade effect and onClick changes backcolor fix that */
 }
 
 .text-area:hover {
-    background-color: #03bde2;
+    /* background-color: #03bde2; */
     /* add some animation */
 }
 

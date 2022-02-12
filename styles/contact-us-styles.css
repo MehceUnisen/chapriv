@@ -1,0 +1,57 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #d7c79e;
+}
+
+.navbar-heading {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding-left: 10%;
+}
+
+p {
+    margin: 2% 10%;
+    text-align: justify;
+}
+
+.dropdown-button {
+    margin-bottom: 4%;
+}
+
+.middle-section {
+    text-align: center;
+}
+
+.middle-section p {
+    display: inline-block;
+    font-weight: bolder;
+    color: white;
+    margin: 4% 0 2% 0;
+}
+
+.middle-section form {
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+label {
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 3%;
+}
+
+.text-area {
+    background-color: #d8ceb7 !important;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+}
+
+.email-input {
+    background-color: #d8ceb7 !important;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+}
