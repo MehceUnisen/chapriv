@@ -35,7 +35,7 @@
 
     <!-- navbar includes the name of the site and motto-->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbarin-kendisi">
         <a class="navbar-brand navbar-chapriv-text" href="#">Chapriv - Chat Privately!</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -67,8 +67,18 @@
                     <textarea readonly class="form-control text-area" id="exampleFormControlTextarea1" rows="10"></textarea>
                 </div>
             </form>
-            <input class="form-control mx-sm-3 mb-2 message-area" type="text" placeholder="Enter Your Message!">
-            <button type="button" class="btn btn-outline-primary send-btn"><i class="fas fa-light fa-share send-logo"></i>&nbsp;&nbsp;Send</button>
+            <div class="row">
+                <div class="col col-lg-9 col-md-9 col-sm-9 col-9">
+                    <input class="form-control mx-sm-3 mb-2 message-area" type="text" placeholder="Enter Your Message!">
+                </div>
+
+                <div class="col col col-lg-3 col-md-3 col-sm-3 col-3">
+                    <button type="button" class="btn btn-outline-primary send-btn"><i class="fas fa-light fa-share send-logo"></i>&nbsp;&nbsp;Send</button>
+                </div>
+
+            </div>
+
+
         </div>
 
         <!-- youtube live streams carousel section -->
@@ -101,10 +111,15 @@
 
         </div>
 
-
     </div>
 
-    <!-- bottom section includess copyright and anchor to rules  -->
+    <!-- bottom section includes copyright -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bottom-bar">
+        <div>
+            <h1> © 2022 Mehce Faruk Unisen / Omer Yasin Cur</h1>
+        </div>
+    </nav>
 
     <!-- javascript include -->
     <script src="src/index.js"></script>

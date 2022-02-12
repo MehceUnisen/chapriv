@@ -1,6 +1,7 @@
 body {
     font-family: 'Ubuntu', sans-serif;
     background-color: #d7c79e;
+    /* text-align: center; */
 }
 
 
@@ -14,12 +15,11 @@ body {
 }
 
 .navbar-items {
-    text-align: center;
-    margin-left: 40%;
+    text-align: left !important;
+    margin-left: 30% !important;
 }
 
 .nav-link-anchor {
-    display: inline-block;
     margin-left: 0;
 }
 
@@ -28,14 +28,15 @@ body {
 
 .form-text-area {
     margin-top: 5%;
-    margin-right: 5%;
+    margin-right: 0;
     margin-bottom: 0;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .middle-section-div {
     font-weight: bolder;
     margin: 2% 8%;
+    text-align: center;
 }
 
 .middle-section-div label {
@@ -53,9 +54,10 @@ body {
 }
 
 .send-btn {
-    width: 19.2% !important;
-    margin-right: 2% !important;
-    margin-left: 3%;
+    display: inline-block;
+    width: 100% !important;
+    margin-right: 25% !important;
+    margin-left: 7% !important;
 }
 
 .message-area {
@@ -65,8 +67,8 @@ body {
     border-width: 2px;
     position: relative;
     display: inline-block;
-    width: 50%;
-    margin-left: 20% !important;
+    width: 80%;
+    margin-left: 13% !important;
 }
 
 iframe {
@@ -85,14 +87,52 @@ iframe {
 }
 
 
+/* bottom bar */
+
+.bottom-bar {
+    position: absolute;
+    bottom: 0;
+    height: 4rem;
+    width: 100%;
+    text-align: center;
+}
+
+.bottom-bar div {
+    position: absolute;
+    display: block;
+    text-align: center;
+    left: 40%;
+}
+
+.bottom-bar h1 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding-left: 10%;
+    color: white;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+
 /* adjustments for my phone spesific (Samsung Galaxy Note8)*/
 
-@media (max-width: 520px) {
-    .navbar-chapriv-text {
-        font-size: 1.3rem;
+@media (max-width: 430px) {
+    .send-btn {
+        width: 100% !important;
+        font-size: 6px !important;
     }
-    .middle-section-div {
-        height: 250px;
-        width: 100%;
+}
+
+@media (max-width: 1100px) {
+    .navbar-chapriv-text {
+        font-size: 1.2rem;
+    }
+    .send-btn {
+        width: 100% !important;
+        font-size: small;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
     }
 }
