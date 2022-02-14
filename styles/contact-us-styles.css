@@ -61,26 +61,17 @@ label {
 
 .bottom-bar {
     position: absolute;
+    width: 100%;
     bottom: 0;
     height: 4rem;
-    width: 100%;
     text-align: center;
-}
-
-.bottom-bar div {
-    position: absolute;
-    display: block;
-    text-align: center;
-    left: 40%;
 }
 
 .bottom-bar h1 {
     font-family: 'Inconsolata', monospace;
     font-weight: bolder;
-    font-size: 1rem;
-    padding-left: 10%;
+    font-size: 110%;
     color: white;
     padding: 0;
     margin: 0;
-    display: block;
 }
