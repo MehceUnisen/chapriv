@@ -63,15 +63,13 @@ body {
 
 /* bottom bar */
 
-.bottom-bar {
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    height: 4rem;
+.bottom-bar-div {
+    height: 3rem;
     text-align: center;
+    margin-top: 10%;
 }
 
-.bottom-bar h1 {
+.bottom-bar-div h1 {
     font-family: 'Inconsolata', monospace;
     font-weight: bolder;
     font-size: 110%;
