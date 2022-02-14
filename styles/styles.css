@@ -35,7 +35,7 @@ body {
 
 .middle-section-div {
     font-weight: bolder;
-    margin: 2% 8%;
+    margin: 2% 7%;
     text-align: center;
 }
 
@@ -57,7 +57,7 @@ body {
     display: inline-block;
     width: 100% !important;
     margin-right: 25% !important;
-    margin-left: 7% !important;
+    margin-left: 5% !important;
 }
 
 .message-area {
