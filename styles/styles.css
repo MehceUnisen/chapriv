@@ -11,20 +11,19 @@ body {
     font-family: 'Inconsolata', monospace;
     font-weight: bolder;
     font-size: 2rem;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 .navbar-items {
-    text-align: left !important;
-    margin-left: 30% !important;
-}
-
-.nav-link-anchor {
-    margin-left: 0;
+    text-align: right !important;
 }
 
 .navbarin-kendisi {
-    margin-bottom: 10%
+    margin-bottom: 5%
+}
+
+.navbar-nav {
+    margin-right: 5%;
 }
 
 
@@ -98,16 +97,13 @@ iframe {
 
 /* bottom bar */
 
-.bottom-bar {
-    position: absolute;
-    width: 100%;
-    top: 110%;
-    bottom: 0;
+.bottom-bar-div {
     height: 3rem;
     text-align: center;
+    margin-top: 10%;
 }
 
-.bottom-bar h1 {
+.bottom-bar-div h1 {
     font-family: 'Inconsolata', monospace;
     font-weight: bolder;
     font-size: 110%;
