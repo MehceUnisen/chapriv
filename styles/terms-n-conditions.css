@@ -1,0 +1,45 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #d7c79e;
+}
+
+.main-text {
+    color: white;
+    font-weight: bolder;
+    margin: 10% 10%;
+}
+
+.navbar-heading {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding-left: 10%;
+}
+
+.bottom-text {
+    /* text-align: center; */
+    color: white;
+    margin-left: 10%;
+    /* margin-bottom: 10%; */
+}
+
+.bottom-bar-div {
+    position: absolute;
+    left: 15%;
+    right: 15%;
+    bottom: 0;
+    padding-bottom: 2%;
+}
+
+.bottom-bar-div h1 {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bolder;
+    font-size: 110%;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.x {
+    text-align: center;
+}
